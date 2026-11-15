@@ -1,0 +1,23 @@
+weapon:
+  attack-damage: 6.0         # added to the 1 base damage (7 total, a netherite sword is 8)
+  attack-speed: -2.4         # same swing speed as a sword (1.6)
+  extra-reach: 0.75          # extra blocks of reach on top of the normal 3
+souls:
+  max: 5                     # souls you can hold
+  decay-seconds: 8           # souls fade if you stop landing hits on players
+  damage-bonus-percent: 4    # extra damage per soul on melee hits
+  lifesteal-percent: 8       # % of melee damage dealt to players that heals you
+sweep:                       # right click: Reaping Sweep
+  cooldown-seconds: 8
+  radius: 4.0
+  damage: 6.0                # +0.5 per soul
+  empowered-radius: 6.0      # with a full set of souls: bigger, withers and heals you
+  empowered-bonus-damage: 3.0
+  empowered-heal: 8.0        # health points (2 = 1 heart)
+grip:                        # shift + right click: Death Grip
+  cooldown-seconds: 14
+  range: 14
+  damage: 3.0
+kill-reward:
+  souls: 2
+  absorption-seconds: 10     # absorption II (4 hearts) after killing a player; also resets Reaping Sweep

@@ -1,0 +1,13 @@
+name: ReaperScythe
+version: '${version}'
+main: dev.reaperscythe.ReaperScythePlugin
+api-version: '26.2'
+description: The Soul Reaper - a PvP scythe that harvests souls.
+commands:
+  scythe:
+    description: Get the Soul Reaper scythe
+    usage: /scythe give [player]
+    permission: reaperscythe.admin
+permissions:
+  reaperscythe.admin:
+    default: op
